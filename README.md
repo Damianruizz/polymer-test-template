@@ -3,10 +3,9 @@ Polymer test template
 
 Instrucciones:
 -Con base a un arreglo con alumnos y calificaciones, mostrar el alumno con su calificación en el HTML
+
 -Mostrar en el HTML cuantas veces se ha dado click en cada nombre del Alumno
 
-
-Extra:
 -Dar un color de fondo diferente para cada Alumno dependiendo de su calificacion 
 	-Rojo: Calificacion entre 0 y 5.9
 	-Amarillo: Calificacion entre 6 y 8
