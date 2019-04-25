@@ -1,0 +1,10 @@
+{
+	"name": "polymer-test-template",
+  "version": "0.0.1",
+  "description": "A template to use in polymer test process, is a helper to develop a polymer web component",
+	"dependencies": {
+		"polymer": "^2.0.0",
+		"webcomponentsjs": "webcomponents/webcomponentsjs#^1.0.0"
+	},
+	"private": true
+}

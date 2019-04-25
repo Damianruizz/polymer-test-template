@@ -1,0 +1,60 @@
+<!-- Polymer Test - Index page -->
+
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="generator" content="Polymer Test">
+    <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+    <title>Polymer Test</title>
+    <meta name="description" content="Template use in polymer test">
+    <script src="bower_components/webcomponentsjs/webcomponents-loader.js"></script>
+    <link rel="import" href="/test-element.html">
+    <style>
+      body {
+        margin: 0;
+        font-family: 'Roboto', 'Noto', sans-serif;
+        line-height: 1.5;
+        min-height: 100vh;
+        background-color: #eeeeee;
+      }
+    </style>
+  </head>
+
+  <body>
+    <test-element id="testElement">
+    </test-element>
+    <script>
+      console.log(document.getElementById('testElement'));
+      document.getElementById('testElement').studentsArray = [
+        {
+          name: "Pedro",
+          score: 5
+        },
+        {
+          name: "Fabian",
+          score: 7
+        },
+        {
+          name: "Ramiro",
+          score: 2
+        },
+        {
+          name: "Juanita",
+          score: 10
+        },
+        {
+          name: "Carlos",
+          score: 9.5
+        },
+        {
+          name: "Araceli",
+          score: 6.5
+        }
+      ];
+    </script>
+    <noscript>
+      Please enable JavaScript to view this website.
+    </noscript>
+  </body>
+</html>

@@ -1,0 +1,33 @@
+<!--
+  Polymer Test
+  Template generated for use on test
+  IMPORTANT: Not import external libraries or use webcomponents.org components
+  For debug we recommended use Glitch environment, fork this template:
+  https://glitch.com/edit/#!/remix/cells-certification-template
+  INSERT YOUR GLITCH LINK HERE:
+-->
+
+<link rel="import" href="/bower_components/polymer/polymer.html">
+
+<dom-module id="test-element">
+  <template>
+    <style>
+    </style>
+    <!-- Your Code -->
+  </template>
+
+  <script>
+    class TestElement extends Polymer.Element {
+      static get is() { return 'test-element'; }
+      static get properties() {
+        return {
+          studentsArray: {
+            type: Array,
+            reflectToAttribute: true
+          }
+        }
+      }
+    }
+    customElements.define(TestElement.is, TestElement);
+  </script>
+</dom-module>
